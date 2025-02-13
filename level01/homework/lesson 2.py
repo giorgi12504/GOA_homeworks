@@ -8,7 +8,7 @@ print("gvari: kevkhishvili")
 print ("asaki: 16")
 print ("simagle: 181")
 ARIS_AMBICIURI = True
-print(True)
+
 
 
 
