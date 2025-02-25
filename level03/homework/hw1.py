@@ -7,3 +7,5 @@ num4=int (input("Enter number:"))
 combined = (num1+num2+num3+num4)
 result = (combined/4)
 print(result)
+
+#done

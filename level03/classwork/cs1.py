@@ -4,4 +4,4 @@ num2 = int(input ("Enter num2"))
 num3 = int(input ("Enter num3"))
 
 sum_of_nums = num1 + num2 + num3
-print (sum_of_nums)
+print (sum_of_nums )
