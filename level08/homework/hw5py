@@ -7,3 +7,11 @@ while number1 != number:
 if number1 == number:
     print("you have logged in sucssfully")
     
+#For loop-ის დახმარებით შექმენით პროგრამა, სადაც მომხმარებელი შემოიტანს რიცხვს (50-ის ჩათვლით, თუ არა დაუპრინტეთ, რომ თავიდან შეიყვანოს), და თქვენ გამოიტანეთ ამ რიცხვის ჯერადები 100-ის ჩათვლით.
+
+number = int(input("enter your number"))
+if number <= 50:
+    for i in range(number, 101, number):
+        print(i)
+else:
+    print("please enter number that is bellow 50")
