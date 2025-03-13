@@ -1,16 +1,16 @@
-1)
+
 a="gio"
 b=5
 def multiply(a,b):
     return (ab)
 print(multiply(a,b))
 
-2)
+
 def repeat_str(repeat,string):
     return stringrepeat
 print(repeat_str(3,"a"))
 
-3)
+
 def get_grade(s1, s2, s3):
     average=(s1+s2+s3)/3
     if average<=100 and average>=90:
@@ -23,13 +23,13 @@ def get_grade(s1, s2, s3):
         return "D"
     elif average < 60 and average>=0:
         return "F"
-4)
+
 def simple_multiplication(number):
     if number % 2 == 0:
         return number * 8 
     else:
         return number * 9
-5)
+
 def rps(p1, p2):
     if (p1=="rock" and p2=="rock") or (p1=="paper" and p2=="paper") or (p1=="scissors" and p2=="scissors"):
         return "Draw!"
