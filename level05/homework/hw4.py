@@ -2,8 +2,8 @@
 
 word = input("Enter a word: ")
 
-
-a_letters = ""
+ 
+a_letters = " "
 
 for char in word:
     if char == 'A' or char == 'a':
