@@ -1,0 +1,9 @@
+#შექმენით პატარა თამაში, სადაც თქვენ შექმნით რაიმე რიცხვების თანმიმდევრობას (ოთხნიშნა integer-რიცხვი), და მომხმარებელმა კი უნდა გამოიცნოს ეს თანმიმდევრობა (გამოიყენეთ While loop)
+number1 = int(input("Enter sequences:"))
+number = 345
+while number1 != number:
+    number1 = int(input("Enter sequences:"))
+    
+if number1 == number:
+    print("you have logged in sucssfully")
+    
